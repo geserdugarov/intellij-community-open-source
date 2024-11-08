@@ -15,7 +15,7 @@
   <property name="maven.resolver.ant.tasks.version" value="1.2.1"/>
   <property name="maven.resolver.ant.tasks.file.name" value="maven-resolver-ant-tasks-${maven.resolver.ant.tasks.version}-uber.jar"/>
   <property name="maven.resolver.ant.tasks.file.path" value="org/apache/maven/resolver/maven-resolver-ant-tasks/${maven.resolver.ant.tasks.version}"/>
-  <property name="maven.resolver.ant.tasks.cache.dir" value="${user.home}/.m2/repository/${maven.resolver.ant.tasks.file.path}"/>
+  <property name="maven.resolver.ant.tasks.cache.dir" value="${user.home}/.m2/open-source-repository/${maven.resolver.ant.tasks.file.path}"/>
   <property name="maven.resolver.ant.tasks.cache.file" value="${maven.resolver.ant.tasks.cache.dir}/${maven.resolver.ant.tasks.file.name}"/>
 
   <xmlproperty file="${jps.bootstrap.dir}/pom.xml" prefix="jps.bootstrap.pom.xml"/>
